@@ -10,7 +10,7 @@ digital scanner -> ftp server -> extractor.sh -> stai(1 | 2).py -> *.txt (result
 
 I have noticed digital scanner machine with high enough thoruput, with an option to send created pdf's to ftp server.
 Using this opportunity, I have created systemd service, that constantly checks ftp://~/pdf directory for new documents.
-If any exists, images are extracted, then converted to *.png format to exvlude any codec incompatibilities.
+If any, images are extracted, then converted to *.png format to exvlude any codec incompatibilities.
 Images are then processed with coresponding .py scripts. Here, I present only the ones for 'Stait Trait Anxiety Inventory'.
 Input data often require normalisation:
   1. 'deskew' library erase non ortogonal scan angles

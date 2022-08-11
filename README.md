@@ -1,6 +1,6 @@
 # Psychology_Evaluation_Test_Scanner
 
-CASE DISCRIPTION:
+CASE DESCRIPTION:
 
 Over the years, Client have had produced heavy kilogrames of psy-eval papers, that needed to be digitalized quickly.
 

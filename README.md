@@ -16,6 +16,6 @@ Input data often require normalization:
   1. 'deskew' library to erase non orthogonal scan angles
   2. 'cv2' to increase contrast
   
-Later library is also used to find countures around answer box, so it is easy to assume which spots have been manually altered.
+Later library is also used to find countures around answer box, so it is easy to assume which of the spots have been manually altered.
 
 ---

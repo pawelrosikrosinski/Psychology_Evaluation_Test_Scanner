@@ -1,0 +1,17 @@
+[Unit]
+Description = <Your service description here>
+After = network.target 
+ 
+[Service]
+Type = simple
+WorkingDirectory= <PATH>/skaner_python/final
+ExecStart = <PATH>/skaner_python/final/final.py
+User = USER
+Group = GROUP
+Restart = on-failure
+SyslogIdentifier = <Name of logs for the service>
+RestartSec = 5
+TimeoutStartSec = infinity
+ 
+[Install]
+WantedBy = multi-user.target 

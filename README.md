@@ -2,7 +2,7 @@
 
 CASE DESCRIPTION:
 
-Over the years, Client have had produced heavy kilogrames of psy-eval papers, that needed to be digitalized quickly.
+Over the years, Client have had produced heavy kilogrames of psy-eval papers, with urgency for digitalization.
 
 SOLUTION:
 

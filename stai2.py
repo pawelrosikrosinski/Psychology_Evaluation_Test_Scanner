@@ -71,7 +71,7 @@ cv2.imwrite("bufor_mask1.png", thresh)
 
 height, width = thresh.shape
 
-cut_start_wid = round(width * 0.8037)
+cut_start_wid = round(width * 0.8038)
 cut_stop_wid = round(width * 0.93)
 
 

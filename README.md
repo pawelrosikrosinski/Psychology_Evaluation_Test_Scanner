@@ -6,7 +6,7 @@ Over the years, Client have had produced heavy kilogrames of psy-eval papers wit
 
 SOLUTION:
 
-digital scanner -> ftp server -> extractor.sh -> stai(1 | 2).py -> *.txt (result)
+digital scanner -> ftp server -> extractor.sh -> stai(1 | 2).py -> stai.txt (result)
 
 I have noticed digital scanner machine with high enough throughput and functionality to send created pdf's into a ftp server.
 Using this opportunity, I have created systemd service, that constantly checks ftp://~/pdf directory for new documents.
